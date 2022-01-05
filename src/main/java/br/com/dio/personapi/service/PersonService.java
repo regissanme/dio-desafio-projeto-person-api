@@ -8,6 +8,9 @@ import br.com.dio.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * Projeto: dio-desafio-projeto-person-api
  * <p>
@@ -37,5 +40,13 @@ public class PersonService {
                 .builder()
                 .message("Created person with ID "+savedPerson.getId())
                 .build();
+    }
+
+    public List<PersonDTO> listAll() {
+        List<Person> persons = personRepository.findAll();
+        List<PersonDTO> personDTOS = persons.stream()
+                .map(personMapper::toDTO)
+                .collect(Collectors.toList());
+        return personDTOS;
     }
 }
