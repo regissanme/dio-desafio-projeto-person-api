@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 @Service
 public class PersonService {
 
-    private PersonRepository personRepository;
+    private final PersonRepository personRepository;
     private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
     @Autowired
@@ -42,10 +42,9 @@ public class PersonService {
 
     public List<PersonDTO> listAll() {
         List<Person> persons = personRepository.findAll();
-        List<PersonDTO> personDTOS = persons.stream()
+        return persons.stream()
                 .map(personMapper::toDTO)
                 .collect(Collectors.toList());
-        return personDTOS;
     }
 
     public PersonDTO findById(Long id) throws PersonNotFoundException {
