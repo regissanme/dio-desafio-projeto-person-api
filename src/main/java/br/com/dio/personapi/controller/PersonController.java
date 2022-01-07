@@ -2,7 +2,6 @@ package br.com.dio.personapi.controller;
 
 import br.com.dio.personapi.dto.MessageResponseDTO;
 import br.com.dio.personapi.dto.request.PersonDTO;
-import br.com.dio.personapi.entity.Person;
 import br.com.dio.personapi.exceptions.PersonNotFoundException;
 import br.com.dio.personapi.service.PersonService;
 import lombok.AllArgsConstructor;
@@ -54,7 +53,7 @@ public class PersonController {
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public MessageResponseDTO updateById(@PathVariable Long id, @RequestBody PersonDTO personDTO) throws PersonNotFoundException {
-        return personService.updateById(id, personDTO);
+        return personService.update(id, personDTO);
     }
 
 
