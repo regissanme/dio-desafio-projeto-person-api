@@ -1,9 +1,14 @@
+/*
+ * Desafio de Projeto - Desenvolvendo um sistema de gerenciamento de pessoas
+ * em API REST com Spring Boot.
+ *
+ * Bootcamp Java Cognizant da DIO
+ * Especialista: Rodrigo Peleias (Desenvolvedor de Software Senior)
+ * #teamJavaCog
+ */
 package br.com.dio.personapi.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -12,17 +17,16 @@ import java.util.List;
 /**
  * Projeto: dio-desafio-projeto-person-api
  * <p>
- * <p>
- * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 04/01/2022
  * Hora: 22:25
  */
 @Entity
-@Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 public class Person {
 
     @Id
@@ -42,6 +46,5 @@ public class Person {
 
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
     private List<Phone> phones;
-
 
 }

@@ -1,17 +1,20 @@
+/*
+ * Desafio de Projeto - Desenvolvendo um sistema de gerenciamento de pessoas
+ * em API REST com Spring Boot.
+ *
+ * Bootcamp Java Cognizant da DIO
+ * Especialista: Rodrigo Peleias (Desenvolvedor de Software Senior)
+ * #teamJavaCog
+ */
 package br.com.dio.personapi.entity;
 
 import br.com.dio.personapi.enums.PhoneType;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
- * <p>
  * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 04/01/2022
@@ -19,10 +22,11 @@ import javax.persistence.*;
  */
 
 @Entity
-@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class Phone {
 
     @Id

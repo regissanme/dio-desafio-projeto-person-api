@@ -1,3 +1,11 @@
+/*
+ * Desafio de Projeto - Desenvolvendo um sistema de gerenciamento de pessoas
+ * em API REST com Spring Boot.
+ *
+ * Bootcamp Java Cognizant da DIO
+ * Especialista: Rodrigo Peleias (Desenvolvedor de Software Senior)
+ * #teamJavaCog
+ */
 package br.com.dio.personapi.mapper;
 
 import br.com.dio.personapi.dto.request.PersonDTO;
@@ -8,8 +16,6 @@ import org.mapstruct.factory.Mappers;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
- * <p>
  * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 05/01/2022
