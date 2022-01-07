@@ -13,7 +13,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 04/01/2022
  * Hora: 22:54

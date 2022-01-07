@@ -8,9 +8,6 @@ import java.util.Collections;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
- * <p>
- * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 06/01/2022
  * Hora: 17:53
@@ -21,9 +18,9 @@ public class PersonUtils {
     private static final String LAST_NAME = "Sanme";
     private static final String CPF_NUMBER = "86039598115";
     private static final Long PERSON_ID = 1l;
-    private static final LocalDate BIRTH_DATE = LocalDate.of(2000,1,1);
+    private static final LocalDate BIRTH_DATE = LocalDate.of(2000, 1, 1);
 
-    public static PersonDTO createFakeDTO(){
+    public static PersonDTO createFakeDTO() {
         return PersonDTO.builder()
                 .firstName(FIRST_NAME)
                 .lastName(LAST_NAME)
@@ -33,7 +30,7 @@ public class PersonUtils {
                 .build();
     }
 
-    public static Person createFakeEntity(){
+    public static Person createFakeEntity() {
         return Person.builder()
                 .firstName(FIRST_NAME)
                 .lastName(LAST_NAME)

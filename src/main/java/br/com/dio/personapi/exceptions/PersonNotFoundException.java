@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 05/01/2022
  * Hora: 19:42

@@ -21,12 +21,10 @@ import java.util.List;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 05/01/2022
  * Hora: 17:55
  */
-
 @Data
 @Builder
 @AllArgsConstructor

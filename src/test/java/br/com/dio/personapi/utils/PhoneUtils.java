@@ -6,9 +6,6 @@ import br.com.dio.personapi.enums.PhoneType;
 
 /**
  * Projeto: dio-desafio-projeto-person-api
- * <p>
- * <p>
- * <p>
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 06/01/2022
  * Hora: 17:54
