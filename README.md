@@ -41,11 +41,15 @@ Após executar o comando acima, basta apenas abrir o seu navegador preferido e a
 - Git instalados na máquina para o versionamento do código. (desejável)
 - Conta no GitHub para armazenamento do seu projeto na nuvem. (desejável)
 
-### Frameworks utilizados nesse projeto
-- Spring Boot.
-- Spring Framework.
-- Lombok
-- Map Struct
+### Ferramentas utilizadas nesse projeto
+- Estilo arquitetural REST.
+- Spring Boot Framework.
+- Spring Data.
+- Spring Test.
+- Lombok.
+- Map Struct.
+- Postman.
+- Deploy no heroku.
 
 
 ### Links úteis
@@ -61,6 +65,7 @@ Após executar o comando acima, basta apenas abrir o seu navegador preferido e a
 - [Documentação do git](https://git-scm.com/)
 - [Documentação do GitHub](https://docs.github.com/pt)
 - [Documentação H2 Database](https://www.h2database.com/html/main.html)
+- [Postman para download](https://www.postman.com/downloads/)
 - [Capítulo REST da dissertação de Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [Atalhos do IntelliJ IDEA](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
 - 
