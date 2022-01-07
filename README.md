@@ -66,7 +66,7 @@ Após executar o comando acima, basta apenas abrir o seu navegador preferido e a
 - 
 
 
-### Contriubições
+### Contribuições
 #### Este repositório foi criado para fins de estudo, então fique à vontade para cloná-lo, sugerir mudanças ou correções.
 #### Todo comentário é muito bem vindo!🤝
 
