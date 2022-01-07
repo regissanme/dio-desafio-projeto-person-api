@@ -68,7 +68,7 @@ Após executar o comando acima, basta apenas abrir o seu navegador preferido e a
 - [Postman para download](https://www.postman.com/downloads/)
 - [Capítulo REST da dissertação de Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [Atalhos do IntelliJ IDEA](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
-- 
+
 
 
 ### Contribuições
