@@ -75,5 +75,8 @@ Após executar o comando acima, basta apenas abrir o seu navegador preferido e a
 #### Este repositório foi criado para fins de estudo, então fique à vontade para cloná-lo, sugerir mudanças ou correções.
 #### Todo comentário é muito bem vindo!🤝
 
-------------
-Disponibilizado por [Reginaldo (**regissanme**)](https://www.linkedin.com/in/reginaldo-santos-de-medeiros-59517324/).
+## Autor  
+
+Feito com ❤️ por Reginaldo Santos de Medeiros 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Reginaldo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/reginaldo-santos-de-medeiros-59517324/)](https://www.linkedin.com/in/reginaldo-santos-de-medeiros-59517324/) [![Gmail Badge](https://img.shields.io/badge/-rsanme@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rsanme@gmail.com)](mailto:rsanme@gmail.com)  
